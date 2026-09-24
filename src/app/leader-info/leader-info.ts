@@ -23,7 +23,7 @@ export class LeaderInfoComponent {
 
   toggleMonologue(): void {
     this.showMonologue = !this.showMonologue;
-    // 2. EMIT TO PARENT
+    
     this.monologueSelected.emit(`${this.name}: "${this.monologue}"`);
   }
 

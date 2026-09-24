@@ -1,9 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Injectable, Service, signal } from '@angular/core';
 
-@Component({
-  imports: [],
-  selector: 'app-trainer-service',
-  styleUrl: './trainer-service.css',
-  templateUrl: './trainer-service.html',
-})
-export class TrainerService {}
+
+@Service()
+
+export class TrainerService {
+  private registry = signal([
+    {
+      
+    }
+  ])
+}

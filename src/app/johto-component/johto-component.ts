@@ -19,6 +19,7 @@ interface LeaderEntry {
   styleUrl: './johto-component.css',
   templateUrl: './johto-component.html',
 })
+
 export class JohtoComponent {
   activeMonologue = signal<string>('Click a leader\'s button to view their motto.');
 
