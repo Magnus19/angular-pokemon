@@ -22,7 +22,3 @@
   background: #f59e0b;
   color: #111827;
 }
-
-.page-content {
-  min-height: calc(100vh - 72px);
-}

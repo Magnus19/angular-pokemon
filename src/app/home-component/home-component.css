@@ -1,0 +1,58 @@
+.home-page {
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #1f2937;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  color: #1e3a8a;
+}
+
+.hero p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.region-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.region-card {
+  border: 2px solid #1f2937;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.region-card h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.region-card p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.kanto-card {
+  color: rgb(231, 99, 99);
+}
+
+.johto-card {
+  color: #1e3a8a;
+}
