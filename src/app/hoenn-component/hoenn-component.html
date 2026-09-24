@@ -11,13 +11,9 @@
   >
     Hoenn Region Gym Leaders
   </h2>
-  <div class="announcement-box">
-    <h3>A message to all trainers!</h3>
-    <p>{{ activeMonologue() }}</p>
-  </div>
 
   <div class="card-grid">
-    @for (item of hoennleaders(); track item.name) {
+    @for (item of trainerService.trainers(); track item.name) {
       <app-leader-info
         [name]="item.name"
         [age]="item.age"
@@ -26,8 +22,6 @@
         [specialty]="item.specialty"
         [gym]="item.gym"
         [pokemonTeam]="item.pokemonTeam"
-        [monologue]="item.monologue"
-        (monologueSelected)="onMonologueReceived($event)"
       >
       </app-leader-info>
     }
